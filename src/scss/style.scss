@@ -1,0 +1,30 @@
+@import "global";
+@import "mixins";
+@import "colors";
+@import "fonts";
+@import "typography";
+@import "buttons";
+@import "header";
+@import "footer";
+@import "main";
+
+body {
+  font-family: $lato;
+  color: $dkGray;
+
+  &.active{
+    overflow: hidden;
+  }
+}
+
+a {
+  color: $black;
+}
+
+.container {
+  max-width: 1065px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
